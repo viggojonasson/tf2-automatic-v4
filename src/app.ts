@@ -3,6 +3,9 @@ process.env.BOT_VERSION = '3.5.2';
 
 import fs from 'fs';
 import path from 'path';
+import open from 'open';
+
+open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
 if (!fs.existsSync(path.join(__dirname, '../node_modules'))) {
     /* eslint-disable-next-line no-console */
